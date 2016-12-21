@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A small utility for console.logging objects with Node's util.inspect. Defaults to plain console.log in browsers.",
   "main": "bin/index.js",
+  "typings": "bin/index.d.ts",
   "repository": "git@github.com:nozzlegear/logspect.git",
   "author": "Joshua Harms <joshua@nozzlegear.com>",
   "license": "MIT",
