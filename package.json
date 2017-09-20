@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "build": "./node_modules/.bin/tsc -p .",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "chalk": "^1.1.3",
