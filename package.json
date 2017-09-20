@@ -16,6 +16,6 @@
     "is-in-browser": "^1.0.2"
   },
   "devDependencies": {
-    "typescript": "^2.1.4"
+    "typescript": "^2.5.2"
   }
 }
