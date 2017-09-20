@@ -8,7 +8,7 @@
   "author": "Joshua Harms <joshua@nozzlegear.com>",
   "license": "MIT",
   "scripts": {
-    "build": "./node_modules/.bin/tsc -p .",
+    "build": "tsc -p .",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
