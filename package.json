@@ -1,6 +1,6 @@
 {
   "name": "logspect",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A small utility for console.logging objects with Node's util.inspect. Defaults to plain console.log in browsers.",
   "main": "bin/index.js",
   "typings": "bin/index.d.ts",
