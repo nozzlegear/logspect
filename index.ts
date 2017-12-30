@@ -1,5 +1,8 @@
-import isBrowser from 'is-in-browser';
 import { yellow } from 'chalk';
+
+const isBrowser = typeof window === "object"
+    && typeof document === 'object'
+    && document.nodeType === 9;
 
 declare const require;
 let util: { inspect: (input: string, options?: { colors?: boolean; }) => string };
